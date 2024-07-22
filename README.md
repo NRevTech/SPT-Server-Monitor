@@ -20,3 +20,11 @@ How-To:
 5. Change the "Path\To\SPT.Server.exe" to the path where your SPT.Server.exe resides
 6. Save changes
 7. Right click on the script and "Run with PowerShell"
+
+
+
+v1.01 Changes:
+=========
+- Added the ability to change the time zone
+- Set the script to run in High Priority (was set to Realtime)
+- Changed the text to display "High Priority" instead of "Realtime"
