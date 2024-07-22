@@ -4,7 +4,7 @@ This PowerShell script will automatically start your SPT server in high priority
 
 This is a PowerShell script that you can configure, and run, on your SPT install that will monitor, launch, relaunch, and restart your SPT server daily. 
 
-Bullet points:
+What It Does:
 ===============
 
 - Launches the server in High Priority mode
