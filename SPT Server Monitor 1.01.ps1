@@ -9,7 +9,8 @@ param(
     [string]$TimeZoneId = "Eastern Standard Time"
 )
 
-# Function to start the program with real-time priority
+# Function to start the program with high priority
+# Please do not put to real-time priority
 function Start-Program {
     $process = Get-Process -Name $ProgramName -ErrorAction SilentlyContinue
     if (-not $process) {
@@ -34,6 +35,7 @@ function Start-Program {
 }
 
 # Function to monitor the program and restart if it crashes
+# Function also works when accidentally closing the server window
 function Monitor-Program {
     $lastRestart = $null
 
@@ -53,6 +55,7 @@ function Monitor-Program {
         }
 
         # Get the current time in the specified time zone
+        # Please adjust your time zone on line 9
         $currentTime = [System.TimeZoneInfo]::ConvertTimeFromUtc((Get-Date).ToUniversalTime(), $timeZone)
 
         # Check if it's 12 AM in the specified time zone for daily restart
