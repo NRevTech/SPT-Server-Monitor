@@ -1,7 +1,7 @@
 # This code belongs to Revin and it is licensed under GNU GPLv3.
 # This script is open source but I would like to receive credit if any alternate versions are released.
 # Replace the "Path\To\SPT.Server.exe" with your SPT install location
-# Change to your Time Zone "Eastern Standard Time"
+# Change your time zone on line 9 in the quotation marks
 # Do not remove the quotation marks
 param(
     [string]$ProgramPath = "Path\To\SPT.Server.exe",
