@@ -20,9 +20,10 @@ How-To:
 3. Change the "Path\To\SPT.Server.exe" to the path where your SPT.Server.exe resides
 4. Change the "Eastern Standard Time" to your time zone
 5. Save changes
-6. Set ExecutionPolicy to RemoteSigned using the following command "Set-ExecutionPolicy Unrestricted"
-7. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "RemoteSigned" you can now run the script.
-8. Right click on the script and "Run with PowerShell"
+6. Open PowerShell as Administrator
+7. Set ExecutionPolicy to RemoteSigned using the following command "Set-ExecutionPolicy Unrestricted"
+8. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "RemoteSigned" you can now run the script.
+9. Go to the script, right click on the script and "Run with PowerShell"
 
 
 
