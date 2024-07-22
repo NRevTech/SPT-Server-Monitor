@@ -14,7 +14,9 @@ How-To:
 ========
 
 1. Download the script
-2. Open the script using Notepad, Notepad++, Visual Studio, or whatever you're comfortable with
-3. Change the "Path\To\SPT.Server.exe" to the path where your SPT.Server.exe resides
-4. Save changes
-5. Right click on the script and "Run with PowerShell"
+2. Set ExecutionPolicy to RemoteSigned using the following command "Set-ExecutionPolicy Unrestricted"
+3. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "RemoteSigned" you can now run the script.
+4. Open the script using Notepad, Notepad++, Visual Studio, or whatever you're comfortable with
+5. Change the "Path\To\SPT.Server.exe" to the path where your SPT.Server.exe resides
+6. Save changes
+7. Right click on the script and "Run with PowerShell"
