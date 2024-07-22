@@ -24,7 +24,7 @@ function Start-Program {
         Start-Sleep -Seconds 5
         if ($process) {
             $process.PriorityClass = [System.Diagnostics.ProcessPriorityClass]::High
-            Write-Output "$ProgramName started and set to real-time priority."
+            Write-Output "$ProgramName started and set to high priority."
         } else {
             Write-Output "Failed to start $ProgramName."
         }
