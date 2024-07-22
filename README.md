@@ -25,6 +25,12 @@ How-To:
 8. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "RemoteSigned" you can now run the script.
 9. Go to the script, right click on the script and "Run with PowerShell"
 
+To Get Time Zone:
+==================
+1. Open PowerShell
+2. Type "Get-TimeZone"
+3. The timezone ID that you will place in the [string]$TimeZoneId = "TimeZone Here" will be the "StandardName :"
+
 
 
 v1.01 Changes:
