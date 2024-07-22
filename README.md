@@ -9,7 +9,7 @@ What It Does:
 - Launches the server in High Priority mode
 - Monitors to see if the server is open or not
 - Relaunches the server if the server has crashed
-- Restarts the server daily at 12 AM EST
+- Restarts the server daily at 12 AM
 
 
 How-To:
