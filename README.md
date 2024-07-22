@@ -21,8 +21,8 @@ How-To:
 4. Change the "Eastern Standard Time" to your time zone
 5. Save changes
 6. Open PowerShell as Administrator
-7. Set ExecutionPolicy to RemoteSigned using the following command "Set-ExecutionPolicy RemoteSigned"
-8. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "RemoteSigned" you can now run the script.
+7. Set ExecutionPolicy to RemoteSigned using the following command "Set-ExecutionPolicy unrestricted"
+8. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "Unrestricted" you can now run the script.
 9. Go to the script, right click on the script and "Run with PowerShell"
 
 To Get Time Zone:
