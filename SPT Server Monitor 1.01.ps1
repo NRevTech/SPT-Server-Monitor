@@ -1,6 +1,6 @@
 # Replace the "Path\To\SPT.Server.exe" with your SPT install location
+# Change to your Time Zone "Eastern Standard Time"
 # Do not remove the quotation marks
-# Change to your Time Zone
 param(
     [string]$ProgramPath = "Path\To\SPT.Server.exe",
     [string]$ProgramName = "SPT.Server",
