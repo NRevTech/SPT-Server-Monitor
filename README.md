@@ -29,7 +29,7 @@ To Get Time Zone:
 ==================
 1. Open PowerShell
 2. Type "Get-TimeZone"
-3. The timezone ID that you will place in the [string]$TimeZoneId = "TimeZone Here" will be the "StandardName :"
+3. The timezone ID that you will place in the [string]$TimeZoneId = "TimeZone Here" will be the "Id" output for example "Id: Eastern Standard Time"
 
 
 
