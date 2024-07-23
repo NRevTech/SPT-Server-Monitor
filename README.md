@@ -16,14 +16,15 @@ How-To:
 ========
 
 1. Download the script
-2. Open the script using Notepad, Notepad++, Visual Studio, or whatever you're comfortable with
-3. Change the "Path\To\SPT.Server.exe" to the path where your SPT.Server.exe resides
-4. Change the "Eastern Standard Time" to your time zone
-5. Save changes
-6. Open PowerShell as Administrator
-7. Set ExecutionPolicy to RemoteSigned using the following command "Set-ExecutionPolicy unrestricted"
-8. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "Unrestricted" you can now run the script.
-9. Go to the script, right click on the script and "Run with PowerShell"
+2. Place script in SPT install location
+3. Open the script using Notepad, Notepad++, Visual Studio, or whatever you're comfortable with
+4. Change the "Path\To\SPT.Server.exe" to the path where your SPT.Server.exe resides
+5. Change the "Eastern Standard Time" to your time zone
+6. Save changes
+7. Open PowerShell as Administrator
+8. Set ExecutionPolicy to RemoteSigned using the following command "Set-ExecutionPolicy unrestricted"
+9. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "Unrestricted" you can now run the script.
+10. Go to the script, right click on the script and "Run with PowerShell"
 
 To Get Time Zone:
 ==================
