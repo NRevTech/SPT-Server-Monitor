@@ -38,3 +38,20 @@ v1.01 Changes:
 - Added the ability to change the time zone
 - Set the script to run in High Priority (was set to Realtime)
 - Changed the text to display "High Priority" instead of "Realtime"
+
+
+v1.01.1 Changes:
+=================
+Changes and Fixes:
+
+- Corrected Priority Setting Ensured the priority is set to High using [System.Diagnostics.ProcessPriorityClass]::High.
+
+- Improved Time Zone Handling. Used a try-catch block to handle invalid time zone IDs gracefully.
+
+- Monitoring in a Separate Session:
+
+- Corrected the arguments for Start-Process to ensure the monitoring script starts correctly in a new PowerShell window.
+
+- Ensured the Main Script Exits If Program Already Running. Checked for existing instances of the program and exited if found, to avoid multiple instances running simultaneously.
+
+- Fixed Time Zone Conversion and Restart Logic. Simplified and corrected the logic to restart the program at the specified time.
