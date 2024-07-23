@@ -4,7 +4,7 @@
 # Change your time zone on line 9 in the quotation marks
 # Do not remove the quotation marks
 param(
-    [string]$ProgramPath = "C:\FikaServer\SPT.Server.exe",
+    [string]$ProgramPath = "Drive:\Path\To\SPT.Server.exe",
     [string]$ProgramName = "SPT.Server",
     [string]$TimeZoneId = "Eastern Standard Time"
 )
