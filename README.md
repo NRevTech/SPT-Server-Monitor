@@ -22,7 +22,7 @@ How-To:
 5. Change the "Eastern Standard Time" to your time zone
 6. Save changes
 7. Open PowerShell as Administrator
-8. Set ExecutionPolicy to RemoteSigned using the following command "Set-ExecutionPolicy unrestricted"
+8. Set ExecutionPolicy to Unrestricted using the following command "Set-ExecutionPolicy unrestricted"
 9. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "Unrestricted" you can now run the script.
 10. Go to the script, right click on the script and "Run with PowerShell"
 
