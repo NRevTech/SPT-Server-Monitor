@@ -56,3 +56,9 @@ Changes and Fixes:
 - Ensured the Main Script Exits If Program Already Running. Checked for existing instances of the program and exited if found, to avoid multiple instances running simultaneously.
 
 - Fixed Time Zone Conversion and Restart Logic. Simplified and corrected the logic to restart the program at the specified time.
+
+
+v1.01.2 Changes:
+=================
+- "Log-CrashTime" function now accepts a reason parameter, which includes the reason for the crash.
+- The "Monitor-Program" function captures any errors when trying to retrieve the process and logs those errors if the process is not found. This way, the log file will include both the timestamp and the reason for each crash. This, however, will not tell you what mod potentially crashed your server. It will explain other reasonings as to why it crashed.
