@@ -1,8 +1,9 @@
 # This code belongs to Revin and it is licensed under GNU GPLv3.
 # This script is open source but I would like to receive credit if any alternate versions are released.
-# Replace the "Drive:\Path\To\SPT.Server.exe" with your SPT install location
-# Change your time zone on line 9 in the quotation marks
-# Do not remove the quotation marks
+# Change line 8 "D:\SPT\SPT.Server.exe" with your SPT install location
+# Change line 9 to the time zone Id found in powershell with "Get-TimeZone"
+# Change line 11 ""D:\SPT\SPT_Server_CrashLog.txt" to the dir in which you want to log crashes
+# DO NOT remove the quotation marks
 param(
     [string]$ProgramPath = "D:\SPT\SPT.Server.exe",
     [string]$ProgramName = "SPT.Server",
