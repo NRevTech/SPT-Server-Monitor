@@ -18,13 +18,14 @@ How-To:
 1. Download the script
 2. Place script in SPT install location
 3. Open the script using Notepad, Notepad++, Visual Studio, or whatever you're comfortable with
-4. Change the "Path\To\SPT.Server.exe" to the path where your SPT.Server.exe resides
-5. Change the "Eastern Standard Time" to your time zone
-6. Save changes
-7. Open PowerShell as Administrator
-8. Set ExecutionPolicy to Unrestricted using the following command "Set-ExecutionPolicy unrestricted"
-9. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "Unrestricted" you can now run the script.
-10. Go to the script, right click on the script and "Run with PowerShell"
+4. Change line 8 "D:\SPT\SPT.Server.exe" with your SPT install location. Keep \SPT.Server.exe in the path name.
+5. Change line 9 to the time zone Id found in powershell with "Get-TimeZone"
+6. Change line 11 "D:\SPT\SPT_Server_CrashLog.txt" to the dir in which you want to log crashes. If you want it to go into another folder then create a folder named "Logs" then add to the path for example "D:\SPT\Logs\SPT_Server_CrashLog.txt"
+7. Save changes
+8. Open PowerShell as Administrator
+9. Set ExecutionPolicy to Unrestricted using the following command "Set-ExecutionPolicy unrestricted"
+10. Check ExecutionPolicy with this command "Get-ExecutionPolicy". If it says "Unrestricted" you can now run the script.
+11. Go to the script, right click on the script and "Run with PowerShell"
 
 To Get Time Zone:
 ==================
